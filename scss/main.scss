@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;800&display=swap");
+
+$font-family-sans-serif: "Plus Jakarta Sans", sans-serif;
+
+$red: hsl(1, 90%, 64%);
+$blue: hsl(219, 85%, 26%);
+
+$white: hsl(0, 0%, 100%);
+$very-light-grayish-blue: hsl(210, 60%, 98%);
+$light-grayish-blue-1: hsl(211, 68%, 94%);
+$light-grayish-blue-2: hsl(205, 33%, 90%);
+$grayish-blue: hsl(219, 14%, 63%);
+$dark-grayish-blue: hsl(219, 12%, 42%);
+$very-dark-blue: hsl(224, 21%, 14%);
+
+@import "../node_modules/bootstrap/scss/bootstrap";
+body {
+    color: $dark-grayish-blue;
+    background-color: $very-light-grayish-blue;
+    font-size: 16px;
+}
+
+.heading {
+    color: $very-dark-blue;
+}
+
+.red-dot {
+    display: inline-block;
+    background: $red;
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+}
+
+.notification {
+    margin-bottom: 15px;
+    padding: 15px 10px;
+
+    .avatar {
+        width: 45px;
+        height: 45px;
+    }
+
+    .name,
+    .post,
+    .group {
+        font-weight: bold;
+    }
+
+    .name {
+        color: hsl(224, 21%, 14%);
+    }
+
+    .time {
+        color: $grayish-blue;
+    }
+
+    .group {
+        color: $blue;
+    }
+}
+
+.unread {
+    background: $very-light-grayish-blue;
+    border-radius: 5px;
+}
