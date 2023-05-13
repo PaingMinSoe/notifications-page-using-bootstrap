@@ -37,8 +37,8 @@ Users should be able to:
 
 ### Links
 
--   Solution URL: [Add solution URL here](https://github.com/notifications-page-using-bootstrap)
--   Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+-   Solution URL: [Notifications Page using Bootstrap](https://github.com/PaingMinSoe/notifications-page-using-bootstrap)
+-   Live Site URL: [Notifications Page using Bootstrap](https://your-live-site-url.com)
 
 ## My process
 
