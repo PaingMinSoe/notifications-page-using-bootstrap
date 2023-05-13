@@ -38,7 +38,7 @@ Users should be able to:
 ### Links
 
 -   Solution URL: [Notifications Page using Bootstrap](https://github.com/PaingMinSoe/notifications-page-using-bootstrap)
--   Live Site URL: [Notifications Page using Bootstrap](https://your-live-site-url.com)
+-   Live Site URL: [Notifications Page using Bootstrap](https://notifications-page-using-bootstrap.vercel.app/)
 
 ## My process
 
